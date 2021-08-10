@@ -64,3 +64,13 @@ body{
     background-color: var(--primario);
     color: var(--oscuro);
 }
+<<<<<<< HEAD
+=======
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 20px;
+}
+>>>>>>> c19f8106a756eb62067cea9fd8637c8c38d08808

@@ -2,6 +2,10 @@
 --blanco: #fff;
 --oscuro: #212121;
 --primario: #FFC107;
+--secundario: #0097A7;
+--gris: #757575;
+--fuete-principal: 3.8rem;
+
 }
 html{
     font-size: 62.5%;
@@ -12,9 +16,58 @@ body{
 .titulo{
     text-align: center;
     font-size: 3.8rem;
-    color: var(--primario);   
+    font-family: 'Zen Tokyo Zoo', cursive;
+    
 }
 
 .titulo span{
     font-size: 2rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0;
+    
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal{
+  
+    
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+@media (min-width: 768px){
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+}
+
+
+.navegacion-principal a { 
+    display: block;
+    text-align: center;  
+    color : var(--blanco);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
